@@ -61,6 +61,10 @@ input_data = (4, 110, 92, 0, 0, 37.6, 0.191, 30)
 
 The model is evaluated using accuracy score on test data.
 It performs reasonably well for binary classification tasks.
+The model predicts:
+
+- 0 → Non-diabetic
+- 1 → Diabetic
 
 # 📁 Project Structure
 diabetes-prediction/

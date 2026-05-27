@@ -28,6 +28,7 @@ The dataset used is the Pima Indians Diabetes Dataset, which includes medical at
 - Scikit-learn
 - Jupyter Notebook
 
+
 # 🤖 Machine Learning Workflow
 1. Load dataset using Pandas
 2. Split data into training and testing sets
@@ -35,3 +36,7 @@ The dataset used is the Pima Indians Diabetes Dataset, which includes medical at
 4. Train classification model
 5. Evaluate model performance
 6. Make predictions on new input data
+
+# 🧪 How to Run the Project
+1. Clone the repository
+git clone https://github.com/your-username/diabetes-prediction.git

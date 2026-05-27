@@ -38,5 +38,12 @@ The dataset used is the Pima Indians Diabetes Dataset, which includes medical at
 6. Make predictions on new input data
 
 # 🧪 How to Run the Project
-1. Clone the repository
+## 1. Clone the repository
 git clone https://github.com/your-username/diabetes-prediction.git
+## 2. Navigate into the project folder
+cd diabetes-prediction
+## 3. Install required libraries
+pip install -r requirements.txt
+## 4. Run the Jupyter Notebook
+jupyter notebook
+

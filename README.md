@@ -67,6 +67,7 @@ The model predicts:
 - 1 → Diabetic
 
 # 📁 Project Structure
+```text
 diabetes-prediction/
 │
 ├── diabetes_prediction.ipynb   # Main notebook
@@ -75,6 +76,9 @@ diabetes-prediction/
 ├── model.pkl                   # Trained model (optional)
 ├── requirements.txt            # Dependencies
 └── README.md                   # Project documentation
+
+```
+
 
 # 🚀 Future Improvements
 - Improve accuracy using advanced models (Random Forest, XGBoost)

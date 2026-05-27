@@ -47,3 +47,33 @@ pip install -r requirements.txt
 ## 4. Run the Jupyter Notebook
 jupyter notebook
 
+# 📥 Making Predictions
+
+The model takes input in the following format:
+
+(Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age)
+
+Example:
+
+input_data = (4, 110, 92, 0, 0, 37.6, 0.191, 30)
+
+# 📈 Model Performance
+
+The model is evaluated using accuracy score on test data.
+It performs reasonably well for binary classification tasks.
+
+# 📁 Project Structure
+diabetes-prediction/
+│
+├── diabetes_prediction.ipynb   # Main notebook
+├── dataset.csv                 # Dataset file
+├── scaler.pkl                  # Saved scaler (optional)
+├── model.pkl                   # Trained model (optional)
+├── requirements.txt            # Dependencies
+└── README.md                   # Project documentation
+
+# 🚀 Future Improvements
+- Improve accuracy using advanced models (Random Forest, XGBoost)
+- Add hyperparameter tuning
+- Deploy model using Flask or Streamlit
+- Build a web-based prediction app
